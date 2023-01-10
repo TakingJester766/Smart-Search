@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { UserAuth } from '../context/AuthContext';
+import { UserAuth } from '../../context/AuthContext';
 //import { db } from '../firebase';
 //import { getAuth, updateProfile } from '..firebase/auth';
 //import { collection } from 'firebase/firestore';

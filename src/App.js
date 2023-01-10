@@ -1,13 +1,13 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './pages';
-import About from './pages/about';
-import Contact from './pages/contact-us';
-import Services from './pages/services';
-import SignUp from './pages/Signup';
-import Signin from './pages/Signin';
-import Account from './pages/Account';
+import Home from './pages/home';
+import About from './pages/about/about';
+import Contact from './pages/contact-us/contact-us';
+import Services from './pages/services/services';
+import SignUp from './pages/login/Signup';
+import Signin from './pages/login/Signin';
+import Account from './pages/login/Account';
 import { AuthContextProvider } from './context/AuthContext';
 import ProtectedRoute from './components/ProtectedRoute';
 
