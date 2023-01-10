@@ -4,7 +4,7 @@
 /node_modules
 /.pnp
 .pnp.
-./data/config.js
+src/data/config.js
 .history
 
 # testing
