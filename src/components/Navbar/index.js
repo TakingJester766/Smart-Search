@@ -33,11 +33,11 @@ const NavBar = () => {
                 <NavLink to='/services'>
                     Services
                 </NavLink>
-                <NavLink to='/contact-us'>
-                    Contact Us
+                <NavLink to='/application'>
+                    App
                 </NavLink>
                 
-                {user ? null : <NavLink to='/sign-up'>Sign Up</NavLink>}
+                {user ? <NavLink to='/profile'>Profile</NavLink> : <NavLink to='/sign-up'>Sign Up</NavLink>}
                 {user ? <NavBtnLink onClick={handleLogout}>Log Out</NavBtnLink> : <NavBtnLink to='/sign-in'>Sign In</NavBtnLink>}
 
             </NavMenu>
