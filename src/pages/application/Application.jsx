@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div style={{display: 'flex', justifyContent: 
     'center', alignItems: 'center', height: '90vh'}}>
-        <h1>Contact Us</h1>
+        <h1>App</h1>
     </div>
   )
 }

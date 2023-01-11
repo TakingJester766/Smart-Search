@@ -33,8 +33,8 @@ const NavBar = () => {
                 <NavLink to='/services'>
                     Services
                 </NavLink>
-                <NavLink to='/application'>
-                    App
+                <NavLink to='/library'>
+                    Library
                 </NavLink>
                 
                 {user ? <NavLink to='/profile'>Profile</NavLink> : <NavLink to='/sign-up'>Sign Up</NavLink>}

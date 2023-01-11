@@ -9,6 +9,7 @@ import SignUp from './pages/login/Signup';
 import Signin from './pages/login/Signin';
 import Account from './pages/login/Account';
 import Profile from './pages/profile/Profile';
+import Library from './pages/application/Library';
 import { AuthContextProvider } from './context/AuthContext';
 import ProtectedRoute from './components/ProtectedRoute';
 
@@ -21,6 +22,7 @@ function App() {
         <Route path='/' exact element={<Home/>} />
         <Route path='/about' element={<About/>} />
         <Route path='/services' element={<Services/>} />
+        <Route path='library' element={<ProtectedRoute><Library /></ProtectedRoute>}/>
         <Route path='/application' element={<Application/>} />
         <Route path='/sign-up' element={<SignUp/>} />
         <Route path='/about' element={<About/>} />
