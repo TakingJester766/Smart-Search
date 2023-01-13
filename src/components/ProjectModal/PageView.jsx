@@ -1,6 +1,6 @@
 //import React, { useState } from 'react';
 
-function PersistentModal() {
+function PageView() {
   return (
     <div id="persistentModal" className="modal">
       <div className="modal-content">
@@ -10,4 +10,4 @@ function PersistentModal() {
   );
 }
 
-export default PersistentModal;
+export default PageView;

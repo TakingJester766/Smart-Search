@@ -2,8 +2,7 @@
 
 
 // You can now call the getSlices function in other files like this:
-const { getSlices } = require('./src/WebScrape.js');
-const config = require('./config.js');
+const config = require('../config.js');
 const OpenAI = require('openai');
 const { Configuration, OpenAIApi } = OpenAI;
 
@@ -11,13 +10,13 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 //const AsyncTest = require('./src/AsyncTest.js');
-const WebScrape = require('./src/WebScrape.js');
+const WebScrape = require('./WebScrape.js');
 const app = express();
 const port = 3001;
 
 const configuration = new Configuration({
     organization: config.organization,
-    apiKey: config.apiKey
+    apiKey: config.gptApiKey
 });
 const openai = new OpenAIApi(configuration);
 
