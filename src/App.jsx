@@ -1,3 +1,4 @@
+import 'antd/dist/reset.css';
 import './App.css';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
@@ -11,8 +12,10 @@ import Account from './pages/login/Account';
 import Profile from './pages/profile/Profile';
 import Library from './pages/application/Library/Library';
 import { AuthContextProvider } from './context/AuthContext';
-import ProtectedRoute from './components/ProtectedRoute';
-import LoginRoute from './components/LoginRoute';
+import ProtectedRoute from './components/Routing/ProtectedRoute';
+//import ProtectedRoute from './components/ProtectedRoute';
+import LoginRoute from './components/Routing/LoginRoute';
+//import LoginRoute from './components/LoginRoute';
 
 function App() {
   return (

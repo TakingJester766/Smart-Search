@@ -1,14 +1,16 @@
 import React from 'react'
 import PersistentModal from '../../../components/ProjectModal/PersistentModal';
+import NewProject from '../../../components/NewProject/NewProject';
 
 const Contact = () => {
   return (
     <div>
-      <div style={{display: 'flex', justifyContent: 
-      'center', alignItems: 'center', height: '20vh'}}>
-          <h1>New Project</h1>
-          <br/>
-          <PersistentModal />
+      <div className='container'>
+          <h1 className='project-header'>New Project</h1>
+          <br />
+          
+          <NewProject />
+          {/*<PersistentModal />*/}
       </div>
     </div>
   )
