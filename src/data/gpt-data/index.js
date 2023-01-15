@@ -43,7 +43,7 @@ app.post('/', async (req, res) => {
                 If you are unable to answer the question or are unsure, please respond with "I don't know".
             
                 User question: ${message}`,
-            max_tokens: 200,
+            max_tokens: 300,
             temperature: 0,
             });
             console.log(response.data);
@@ -71,7 +71,7 @@ app.post('/', async (req, res) => {
                 Text block: ${responseSummary}
 
                 If you are unable to answer the question or are unsure, please respond with "I don't know"`,
-            max_tokens: 500,
+            max_tokens: 750,
             temperature: 0,
             });
             console.log(response.data);
